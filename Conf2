@@ -1,0 +1,19 @@
+Ok here's some keywords for you:
+
+#3: "stealth.context.Base" or "stealth.context.<contextGroup>"
+#4:
+ {
+            serverUrl:                  ${com.ccri.onethresher.env.configured-services.arc-gis.world-url},
+            xyz:                        true,
+            Name:                       "esri:world_imagery",
+            Title:                      "World Imagery",
+            originalProjection:         "EPSG:3857",
+            tileSize:                   512,
+            wrapX:                      true,
+            minZoom:                    0,
+            maxZoom:                    21,
+            KeywordList:                ["stealth.context.Base"],
+            queryable:                  false
+        },
+I think I know what you mean for #2, but I'm not sure how to disable it. It might help if I knew what baseball card template you're using? I'll try to look around.
+-Bailey
